@@ -2,5 +2,5 @@ from django.urls import path
 from .views import info_endpoint
 
 urlpatterns = [
-    path('info/',  info_endpoint,  name='info_endpoint'),
+    path('',  info_endpoint,  name='info_endpoint'),
 ]
