@@ -11,8 +11,8 @@ def info_endpoint(request):
         "current_day": datetime.utcnow().strftime('%A'),
         "utc_time": datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
         "track": request.GET.get('track'),
-        "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
-        "github_repo_url": "https://github.com/username/repo",
+        "github_file_url": "https://github.com/PatrickNaenae/HNG_stage1/blob/main/endpoint/views.py",
+        "github_repo_url": "https://github.com/PatrickNaenae/HNG_stage1",
         "status_code": 200
     }
 
